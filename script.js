@@ -46,9 +46,9 @@
 //      }
 
 //      console.log(a);
-     
+
 //    }
-   
+
 // }
 
 // Operators:
@@ -71,8 +71,6 @@
 // c = --a;
 
 // console.log(c);
-
-
 
 // 2. Assignment op
 
@@ -98,9 +96,9 @@
 
 // console.log(ans);
 
-// 4. Logical 
+// 4. Logical
 
-// &&, 
+// &&,
 
 // true && true => true
 // false && true => false
@@ -113,7 +111,6 @@
 // false || true => true
 // true || false => true
 // false || false => false
-
 
 // !
 
@@ -138,7 +135,6 @@
 
 // console.log(answer);
 
-
 // 6. Ternary op
 
 // var ans = (5 < 2) ? "Yes" : "Noooo";
@@ -155,12 +151,13 @@
 
 // 1. Normal function
 
-function foo(n, a, name){
-    console.log(n * a, name);
-}
+// function foo(n, a) {
+//   return n * a;
+// }
 
-foo(50, 10);
-foo(5, 2, "Ravi")
+// var result = foo(5, 2);
+
+// console.log(result);
 
 // 2. Ananymous Function
 
@@ -182,5 +179,21 @@ foo(5, 2, "Ravi")
 //     console.log("Its IFIE Function");
 // })()
 
-
 // DRY -> Don't repeat your code
+
+
+// Calling the function through HTML
+
+var balance = 1000;
+
+const bankAccount = (amt) => {
+    
+
+    balance += amt;
+
+    console.log(balance);
+}
+
+// const handleClick = () => {
+//    alert("Hello It's clicked");
+// }
