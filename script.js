@@ -188,12 +188,11 @@ var balance = 1000;
 
 const bankAccount = (amt) => {
     
-
     balance += amt;
 
     console.log(balance);
 }
 
-// const handleClick = () => {
-//    alert("Hello It's clicked");
-// }
+const handleClick = () => {
+   alert("Hello It's clicked");
+}
